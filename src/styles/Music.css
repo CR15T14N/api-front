@@ -1,0 +1,47 @@
+
+.artists {
+  padding: 0 50px 50px 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: black; 
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid black; 
+  text-align: center;
+}
+
+th {
+  text-align: center; 
+}
+
+tbody tr {
+  background-color: white;
+}
+
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.actions svg {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.actions svg:hover {
+  color: #007bff; 
+}
+
+  

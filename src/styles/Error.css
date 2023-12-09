@@ -1,0 +1,39 @@
+.background {
+    background-color: white;
+}
+
+.divError {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    color: darkred;
+}
+.errorImg{
+    width: 500px;
+}
+
+.error-btn {
+    background-color: beige;
+    border: 2px solid;
+    border-radius: 15px;
+
+    width: 200px;
+    height: 40px;
+    color: black;
+    transition: 0.5s;
+}
+
+.error-btn:hover {
+    background-color: black;
+    color: white;
+}

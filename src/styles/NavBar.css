@@ -1,0 +1,33 @@
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.links {
+	display:flex;
+
+}
+
+.btn{
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 40px;
+	margin: 10px;
+	background-color: transparent;
+	border: 2px solid;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	border: 2px solid black;
+	color: black;
+	background-color: gold;
+}
+
+.logo{
+	margin: 10px;
+	width: 50px;
+
+}
